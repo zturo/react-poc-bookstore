@@ -1,0 +1,10 @@
+body {
+    justify-content: center;
+    display: flex;
+}
+
+.hello {
+    /* color: red; */
+    margin: 10px;
+    width: 500px;
+}

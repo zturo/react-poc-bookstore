@@ -1,0 +1,38 @@
+{
+  "name": "demo1-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.pug --no-cache"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-pug": "2.7.0",
+    "@types/uuid": "^8.3.4",
+    "buffer": "^6.0.3",
+    "parcel": "^2.7.0",
+    "parcel-reporter-static-files-copy": "^1.4.0",
+    "postcss": "^8.2.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.6.4",
+    "@types/react": "^17.0.48",
+    "@types/react-dom": "^17.0.17",
+    "axios": "^0.27.2",
+    "easy-peasy": "^5.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.3.0",
+    "semantic-ui-css": "zturo/Semantic-UI-CSS.git#fixing-unexpected-token-delim",
+    "semantic-ui-react": "^2.1.3",
+    "typed-json-rpc": "^1.0.5",
+    "typescript": "^4.7.4",
+    "typescript-plugin-css-modules": "^3.4.0",
+    "uuid": "^8.3.2"
+  }
+}

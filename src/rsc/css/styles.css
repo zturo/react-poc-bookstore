@@ -1,0 +1,24 @@
+/* body {
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+.ui.celled.list .item {
+    padding: 20px;
+}
+
+
+.ui.celled.list .item > .content {
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+.ui.celled.list .item > .content .description {
+    font-style: italic;
+}
+
+
+.ui.celled.list .item > .content > .header {
+    font-size: large;
+    padding-bottom: 0.3em;
+}
